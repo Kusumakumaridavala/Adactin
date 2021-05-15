@@ -1,0 +1,946 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 311500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "user enter valid username and valid paasword",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user-enter-valid-username-and-valid-paasword;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 173600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8826377800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch url of the Adactin application",
+            "match": {
+              "location": "LoginpageStepDefinition.user_launch_url_of_the_Adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265439700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"sumajity\"as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sumajity",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138806900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"suma123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suma123",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448469000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3822300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks the valid username and valid password",
+            "match": {
+              "location": "LoginpageStepDefinition.user_checks_the_valid_username_and_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "user enter valid username and valid paasword",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user-enter-valid-username-and-valid-paasword;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 595163000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch url of the Adactin application",
+            "match": {
+              "location": "LoginpageStepDefinition.user_launch_url_of_the_Adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81707700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"kusuma123\"as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kusuma123",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84268000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"kusuma345\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kusuma345",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404994400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks the valid username and valid password",
+            "match": {
+              "location": "LoginpageStepDefinition.user_checks_the_valid_username_and_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 260900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "user enter valid username and valid paasword",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user-enter-valid-username-and-valid-paasword;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 107400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 350812300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch url of the Adactin application",
+            "match": {
+              "location": "LoginpageStepDefinition.user_launch_url_of_the_Adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87748500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"harinikumari\"as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harinikumari",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78091800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"harini123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harini123",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421549900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks the valid username and valid password",
+            "match": {
+              "location": "LoginpageStepDefinition.user_checks_the_valid_username_and_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "user enter valid username and valid paasword",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user-enter-valid-username-and-valid-paasword",
+        "after": [
+          {
+            "result": {
+              "duration": 60200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 422980100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user launch url of the Adactin application",
+            "match": {
+              "location": "LoginpageStepDefinition.user_launch_url_of_the_Adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84120000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter \"sumadavala\"as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sumadavala",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81028100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter \"Kusuma@123\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kusuma@123",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005264500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user checks the valid username and valid password",
+            "match": {
+              "location": "LoginpageStepDefinition.user_checks_the_valid_username_and_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 25,
+            "value": "#Background: user enter valid username and valid paasword"
+          },
+          {
+            "line": 26,
+            "value": "#Given  user launch url of the Adactin application"
+          },
+          {
+            "line": 27,
+            "value": "#When user enter \"sumadavala\"as username"
+          },
+          {
+            "line": 28,
+            "value": "#And user enter \"masuku@123\" as password"
+          },
+          {
+            "line": 29,
+            "value": "#And user click login button"
+          },
+          {
+            "line": 30,
+            "value": "#Then  user checks the valid username and valid password"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 82700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "user enter  valid details for searching the hotel",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user-enter--valid-details-for-searching-the-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 61600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 95883100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enter \"Sydney\" as location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92431300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enter \"Hotel Sunshine\"as hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hotel Sunshine",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86289900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enter \"Double\"as  roomtype",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Double",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_roomtype(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84140800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enter \"2 - Two\"as nof rooms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 - Two",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_nof_rooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233712400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter \"02/04/2021\" as checkin date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "02/04/2021",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_checkin_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81187600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enter \"05/04/2021\" as checkout date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/04/2021",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_checkout_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70924000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter \"2\"as adults per room",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_adults_per_room(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68853000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter \"3\"as childrens per room",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_childrens_per_room(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1510420800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user click serch button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_serch_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 83800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "user   choosing the selected hotel",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user---choosing-the-selected-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 51200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97790800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user click  the select button.",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_the_select_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815173300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user click the Continue button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_the_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user checks the selected Hotel",
+            "match": {
+              "location": "LoginpageStepDefinition.user_checks_the_selected_Hotel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "user enter the valid details for booking hotel",
+        "description": "",
+        "id": "login-functionality--of-adactinapplication;user-enter-the-valid-details-for-booking-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 106600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 434874700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user enter  \"suma\"as firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suma",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_firstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84867700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user  enter \"davala\" as a lastname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davala",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_a_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190047100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user enter \"Chennai,tiruvanmiyur ,kuppam beach road\" as address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chennai,tiruvanmiyur ,kuppam beach road",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127392000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user enter \"1234567891234567\" as number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567891234567",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123613800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user enter \"VISA\"as card type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VISA",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_card_type(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92203500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user  enter \"July\" as card month",
+            "match": {
+              "arguments": [
+                {
+                  "val": "July",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_card_month(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106079300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user enter \"2022\"  as card expiredyear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_card_expiredyear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170297400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enter \"234\" as  card cvv number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginpageStepDefinition.user_enter_as_card_cvv_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149569900,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user click getbooked button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_getbooked_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457196700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user click logout button",
+            "match": {
+              "location": "LoginpageStepDefinition.user_click_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user validate the all valid details of booking hotel",
+            "match": {
+              "location": "LoginpageStepDefinition.user_validate_the_all_valid_details_of_booking_hotel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality  of AdactinApplication",
+    "description": "",
+    "id": "login-functionality--of-adactinapplication",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
